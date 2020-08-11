@@ -70,9 +70,9 @@ Partial Class frmVenta
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.ForeColor = System.Drawing.SystemColors.Window
         Me.GroupBox2.Location = New System.Drawing.Point(269, 337)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox2.Size = New System.Drawing.Size(958, 255)
         Me.GroupBox2.TabIndex = 5
         Me.GroupBox2.TabStop = False
@@ -120,7 +120,7 @@ Partial Class frmVenta
         Me.datalistado.EnableHeadersVisualStyles = False
         Me.datalistado.GridColor = System.Drawing.SystemColors.Highlight
         Me.datalistado.Location = New System.Drawing.Point(74, 60)
-        Me.datalistado.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.datalistado.Margin = New System.Windows.Forms.Padding(2)
         Me.datalistado.Name = "datalistado"
         Me.datalistado.ReadOnly = True
         Me.datalistado.RowHeadersVisible = False
@@ -151,7 +151,7 @@ Partial Class frmVenta
         'txtbuscar
         '
         Me.txtbuscar.Location = New System.Drawing.Point(241, 26)
-        Me.txtbuscar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtbuscar.Margin = New System.Windows.Forms.Padding(2)
         Me.txtbuscar.Name = "txtbuscar"
         Me.txtbuscar.Size = New System.Drawing.Size(177, 26)
         Me.txtbuscar.TabIndex = 16
@@ -181,9 +181,9 @@ Partial Class frmVenta
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.SystemColors.Window
         Me.GroupBox1.Location = New System.Drawing.Point(269, 53)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Size = New System.Drawing.Size(958, 262)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
@@ -204,7 +204,7 @@ Partial Class frmVenta
         Me.txtbuscarempleado.Cursor = System.Windows.Forms.Cursors.Hand
         Me.txtbuscarempleado.Image = CType(resources.GetObject("txtbuscarempleado.Image"), System.Drawing.Image)
         Me.txtbuscarempleado.Location = New System.Drawing.Point(423, 189)
-        Me.txtbuscarempleado.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtbuscarempleado.Margin = New System.Windows.Forms.Padding(2)
         Me.txtbuscarempleado.Name = "txtbuscarempleado"
         Me.txtbuscarempleado.Size = New System.Drawing.Size(45, 31)
         Me.txtbuscarempleado.TabIndex = 24
@@ -213,7 +213,7 @@ Partial Class frmVenta
         'txtnomempleado
         '
         Me.txtnomempleado.Location = New System.Drawing.Point(210, 197)
-        Me.txtnomempleado.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtnomempleado.Margin = New System.Windows.Forms.Padding(2)
         Me.txtnomempleado.Name = "txtnomempleado"
         Me.txtnomempleado.ReadOnly = True
         Me.txtnomempleado.Size = New System.Drawing.Size(200, 26)
@@ -227,7 +227,7 @@ Partial Class frmVenta
         Me.btnnuevo.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnnuevo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnnuevo.Location = New System.Drawing.Point(853, 56)
-        Me.btnnuevo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnnuevo.Margin = New System.Windows.Forms.Padding(2)
         Me.btnnuevo.Name = "btnnuevo"
         Me.btnnuevo.Size = New System.Drawing.Size(91, 60)
         Me.btnnuevo.TabIndex = 12
@@ -253,7 +253,7 @@ Partial Class frmVenta
         Me.btnguardar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnguardar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnguardar.Location = New System.Drawing.Point(853, 158)
-        Me.btnguardar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnguardar.Margin = New System.Windows.Forms.Padding(2)
         Me.btnguardar.Name = "btnguardar"
         Me.btnguardar.Size = New System.Drawing.Size(91, 62)
         Me.btnguardar.TabIndex = 16
@@ -264,7 +264,7 @@ Partial Class frmVenta
         'txtidempleado
         '
         Me.txtidempleado.Location = New System.Drawing.Point(210, 154)
-        Me.txtidempleado.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtidempleado.Margin = New System.Windows.Forms.Padding(2)
         Me.txtidempleado.MaxLength = 13
         Me.txtidempleado.Name = "txtidempleado"
         Me.txtidempleado.ReadOnly = True
@@ -279,7 +279,7 @@ Partial Class frmVenta
         Me.btneditar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btneditar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btneditar.Location = New System.Drawing.Point(853, 158)
-        Me.btneditar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btneditar.Margin = New System.Windows.Forms.Padding(2)
         Me.btneditar.Name = "btneditar"
         Me.btneditar.Size = New System.Drawing.Size(91, 62)
         Me.btneditar.TabIndex = 13
@@ -293,7 +293,7 @@ Partial Class frmVenta
         Me.CMBtipo_documento.FormattingEnabled = True
         Me.CMBtipo_documento.Items.AddRange(New Object() {"Boleta", "Factura"})
         Me.CMBtipo_documento.Location = New System.Drawing.Point(653, 102)
-        Me.CMBtipo_documento.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.CMBtipo_documento.Margin = New System.Windows.Forms.Padding(2)
         Me.CMBtipo_documento.Name = "CMBtipo_documento"
         Me.CMBtipo_documento.Size = New System.Drawing.Size(151, 28)
         Me.CMBtipo_documento.TabIndex = 20
@@ -302,9 +302,9 @@ Partial Class frmVenta
         '
         Me.txtfecha.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.txtfecha.Location = New System.Drawing.Point(652, 56)
-        Me.txtfecha.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.txtfecha.MaxDate = New Date(2020, 8, 4, 0, 0, 0, 0)
-        Me.txtfecha.MinDate = New Date(2020, 8, 4, 0, 0, 0, 0)
+        Me.txtfecha.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtfecha.MaxDate = New Date(9998, 8, 4, 0, 0, 0, 0)
+        Me.txtfecha.MinDate = New Date(1900, 8, 4, 0, 0, 0, 0)
         Me.txtfecha.Name = "txtfecha"
         Me.txtfecha.Size = New System.Drawing.Size(151, 26)
         Me.txtfecha.TabIndex = 19
@@ -315,7 +315,7 @@ Partial Class frmVenta
         Me.btnBuscarCliente.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnBuscarCliente.Image = CType(resources.GetObject("btnBuscarCliente.Image"), System.Drawing.Image)
         Me.btnBuscarCliente.Location = New System.Drawing.Point(423, 97)
-        Me.btnBuscarCliente.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnBuscarCliente.Margin = New System.Windows.Forms.Padding(2)
         Me.btnBuscarCliente.Name = "btnBuscarCliente"
         Me.btnBuscarCliente.Size = New System.Drawing.Size(45, 32)
         Me.btnBuscarCliente.TabIndex = 18
@@ -324,7 +324,7 @@ Partial Class frmVenta
         'txtnombre_cliente
         '
         Me.txtnombre_cliente.Location = New System.Drawing.Point(241, 106)
-        Me.txtnombre_cliente.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtnombre_cliente.Margin = New System.Windows.Forms.Padding(2)
         Me.txtnombre_cliente.Name = "txtnombre_cliente"
         Me.txtnombre_cliente.ReadOnly = True
         Me.txtnombre_cliente.Size = New System.Drawing.Size(170, 26)
@@ -343,7 +343,7 @@ Partial Class frmVenta
         'txtnum_documento
         '
         Me.txtnum_documento.Location = New System.Drawing.Point(653, 151)
-        Me.txtnum_documento.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtnum_documento.Margin = New System.Windows.Forms.Padding(2)
         Me.txtnum_documento.MaxLength = 10
         Me.txtnum_documento.Name = "txtnum_documento"
         Me.txtnum_documento.Size = New System.Drawing.Size(151, 26)
@@ -382,7 +382,7 @@ Partial Class frmVenta
         'txtidcliente
         '
         Me.txtidcliente.Location = New System.Drawing.Point(210, 106)
-        Me.txtidcliente.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtidcliente.Margin = New System.Windows.Forms.Padding(2)
         Me.txtidcliente.Name = "txtidcliente"
         Me.txtidcliente.ReadOnly = True
         Me.txtidcliente.Size = New System.Drawing.Size(28, 26)
@@ -401,7 +401,7 @@ Partial Class frmVenta
         'txtidventa
         '
         Me.txtidventa.Location = New System.Drawing.Point(210, 59)
-        Me.txtidventa.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtidventa.Margin = New System.Windows.Forms.Padding(2)
         Me.txtidventa.Name = "txtidventa"
         Me.txtidventa.ReadOnly = True
         Me.txtidventa.Size = New System.Drawing.Size(200, 26)
@@ -416,11 +416,11 @@ Partial Class frmVenta
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(66, Byte), Integer), CType(CType(82, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1040, 613)
+        Me.ClientSize = New System.Drawing.Size(1243, 613)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmVenta"
         Me.Text = "frmVenta"
         Me.GroupBox2.ResumeLayout(False)
